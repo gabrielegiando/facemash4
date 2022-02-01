@@ -50,12 +50,20 @@ int lunghezza = numeri.length;
 int posizioneCausale =rand.nextInt(lunghezza);
 
 System.out.println(numeri[posizioneCausale]);
+
+Random rand1 = new Random();
+
+int lunghezza1 = numeri.length;
+
+int posizioneCausale1 =rand1.nextInt(lunghezza1);
+
+System.out.println(numeri[posizioneCausale1]);
 %>
 <table>
 <tr>
 <th> <a href="img/.jsp"><img src="img/<% out.println(numeri[posizioneCausale]);%>.jpg" width="auto" height="250" /></a></th>
 <th><p>or</p></th>
-<th><a href="img/.jsp"><img  src="img/<% out.println(numeri[posizioneCausale]);%>.jpg" width="auto" height="250" /></a></th>
+<th><a href="img/.jsp"><img  src="img/<% out.println(numeri[posizioneCausale1]);%>.jpg" width="auto" height="250" /></a></th>
 </tr>
 </table>
 </div>
