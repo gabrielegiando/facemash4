@@ -30,6 +30,8 @@ a:link, a:visited {
 <div align="center">
 
 <%
+//commento
+
 //String[] vett={""};
 //Random rand= new Random();
 //int a = rand.nextInt(vett.length);
